@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sdf1">dd MMMM yyyy</string>
+    <string name="sdf2">dd MMMM yyyy HH:mm</string>
+    <string name="sdf3">HH:mm</string>
+    <string name="app_name">Rabotan ToDo Calendar</string>
+    <string name="menu_add">New task</string>
+    <string name="menu_delete">Delete task</string>
+    <string name="menu_sms">Send via sms</string>
+    <string name="menu_email">Send via email</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_filter_saved">Saved filters</string>
+    <string name="name_for_a_new_task">Name of a new task </string>
+    <string name="name_for_filter">Name of a task to search for</string>
+    <string name="menu_edit_catalog">Edit</string>
+    <string name="menu_delete_catalog">Delete</string>
+    <string name="menu_return">Return</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_catalogs">Catalogs</string>
+    <string name="menu_preferences">Preferences</string>
+    <string name="menu_from_calendar">Download from ANDROID Calendar</string>
+    <string name="menu_to_calendar">Upload to ANDROID Calendar</string>
+    <string name="menu_more">More</string>
+    <string name="menu_export">Export to xml</string>
+    <string name="menu_import">Import from xml</string>
+    <string name="menu_group_editing">Group editing</string>
+    <string name="menu_receive_emails">Receive emails</string>
+    <string name="menu_consumed_time">Time consumed</string>
+    <string name="denied_to_delete_catalog">Removing of this element is forbidden</string>
+    <string name="status1">Active</string>
+    <string name="status2">Completed</string>
+    <string name="status3">Canceled</string>
+    <string name="status4">Archive</string>
+    <string name="status5">Postponed</string>
+    <string name="category1">Private</string>
+    <string name="category2">Work</string>
+    <string name="menu_categories">Categories</string>
+    <string name="menu_statuses">Statuses</string>
+    <string name="menu_filters">Filters</string>
+    <string name="category">Category</string>
+    <string name="status">Status</string>
+    <string name="editname">Edit name:</string>
+    <string name="buttonsave">Save</string>
+    <string name="buttoncancel">Cancel</string>
+    <string name="question_delete_task">Are you sure you want delete(archive) the task?</string>
+    <string name="alarm">Alarm</string>
+    <string name="from_code1">IGNORE. Phone is not defined for </string>
+    <string name="from_code2">IGNORE. Email is not defined for </string>
+    <string name="from_code3">Send email to </string>
+    <string name="from_code4">Send sms to </string>
+    <string name="from_code5">Email to </string>
+    <string name="from_code6">Email SEND is failed </string>
+    <string name="from_code7">unscheduled</string>
+    <string name="from_code8">Date is unchecked in the current filter</string>
+    <string name="from_code9">In the current filter, the date condition is not \'=\'</string>
+    <string name="from_code10">in interval</string>
+    <string name="from_code11">out of interval</string>
+    <string name="from_code12">Yes</string>
+    <string name="from_code13">No</string>
+    <string name="from_code14">Choose tasks before</string>
+    <string name="from_code15"></string>
+    <string name="from_code16">New emails are checked</string>
+    <string name="from_code17">Connection failed</string>
+    <string name="from_code18">Select default color</string>
+    <string name="from_code19">Confirm selection</string>
+    <string name="from_code20">Pick a color</string>
+    <string name="from_code21">There is no selected calendar in system. SYNC is not done</string>
+    <string name="from_code22">Uploaded to calendar</string>
+    <string name="from_code23">Export-File</string>
+    <string name="from_code24"> is NOT saved in the root of the sd card</string>
+    <string name="from_code25"> is NOT saved</string>
+    <string name="from_code26"> is saved </string>
+    <string name="from_code27"> in iternal memory</string>
+    <string name="from_code28">File </string>
+    <string name="from_code29"> is not found in the root of the sd card</string>
+    <string name="from_code30"> is not found</string>
+    <string name="from_code31">Import from </string>
+    <string name="from_code32"> is successed</string>
+    <string name="from_code33">New task is received via a message:</string>
+    <string name="from_code34">A status of the task \'</string>
+    <string name="from_code35">\' is changed</string>
+    <string name="from_code36">In the received message a status is not defined</string>
+    <string name="from_code37">contact is not found</string>
+    <string name="from_code38">Pick a category</string>
+    <string name="from_code39">contains</string>
+    <string name="from_code40">doesn\'t contain</string>
+    <string name="from_code41">in list</string>
+    <string name="from_code42">out of the list</string>
+    <string name="from_code43">Fill the name of the filter</string>
+    <string name="from_code44">Edit</string>
+    <string name="from_code45">Delete</string>
+    <string name="from_code46">Add a child task</string>
+    <string name="from_code47">Pick a parent</string>
+    <string name="from_code48">Clear</string>
+    <string name="from_code49">Pick a contact</string>
+    <string name="from_code50">Default filter = </string>
+    <string name="from_code51">Connection is succcess</string>
+    <string name="from_code52">Connection failed</string>
+    <string name="from_code53">Phone for the contact</string>
+    <string name="from_code54"> is not defined</string>
+    <string name="from_code55">SMS to </string>
+    <string name="from_code56">New task is received via sms: </string>
+    <string name="from_code57">In the received SMS a status is not defined</string>
+    <string name="from_code58">Edit code</string>
+    <string name="from_code59">Fill the name before save</string>
+    <string name="from_code60">The date of the task is changed to </string>
+    <string name="from_code61"> automatically</string>
+    <string name="from_code62">The selection is equal to the current job</string>
+    <string name="from_code63">Fill an executor or a responsible</string>
+    <string name="from_code64">EMAIL is not defined</string>
+    <string name="from_code65">Save to a new CSV file on SD card</string>
+    <string name="from_code66">Construct a report \"Category-Hours\"</string>
+    <string name="from_code67">date;category;minutes;comment;task</string>
+    <string name="from_code68">General</string>
+    <string name="from_code69">Extended</string>
+    <string name="from_code70">History</string>
+    <string name="from_code71">week : </string>
+    <string name="from_code72">unscheduled tasks</string>
+    <string name="from_code73">Input executor</string>
+    <string name="from_code74">Input responsible</string>
+    <string name="from_code75">In Settings your email is not defined. Email was not sent</string>
+     <string name="from_code76">Rate</string>
+<string name="from_code81">Something is wrong with sending sms. Try again.</string>  
+         <string name="from_code82">Toodledo user id receiving is failed. </string>  
+    <string name="from_code83">Toodledo token receiving is failed. </string>  
+    <string name="from_code84">Toodledo error by export of tasks </string>  
+    <string name="from_code85">Network is unavailable </string>  
+    <string name="from_code86">Toodledo error by import of tasks </string> 
+    
+       <string name="from_code87">Toodledo sync. Number of changes: </string> 
+    <string name="from_code88">Standart table \"Events\" doesn\'t exist. </string> 
+         <string name="from_code89">Error. Database is not open. </string> 
+     
+    <string name="from_code77">If you enjoy using</string>
+    <string name="from_code78">, please take a moment to rate it. Thanks for your support!</string>
+    <string name="from_code79">Remind me later</string>
+    <string name="from_code80">No, thanks</string>
+    <string name="from_layout1">bg color</string>
+    <string name="from_layout2">text color</string>
+    <string name="from_layout3">Date</string>
+    <string name="from_layout4">Category</string>
+    <string name="from_layout5">Minutes</string>
+    <string name="from_layout6">Comment</string>
+    <string name="from_layout7">OK</string>
+    <string name="from_layout8">Cancel</string>
+    <string name="from_layout9">Apply</string>
+    <string name="from_layout10">Name of the filter</string>
+    <string name="from_layout11">Sort by</string>
+    <string name="from_layout12">Code</string>
+    <string name="from_layout13">Code for search</string>
+    <string name="from_layout14">Name</string>
+    <string name="from_layout15">Name for search</string>
+    <string name="from_layout16">Status</string>
+    <string name="from_layout17">Category</string>
+    <string name="from_layout18">Descrip.</string>
+    <string name="from_layout19">Description for search</string>
+    <string name="from_layout20">Respons.</string>
+    <string name="from_layout21">Executor</string>
+    <string name="from_layout22">Date</string>
+    <string name="from_layout23">Due Date</string>
+    <string name="from_layout24">Rel.Date</string>
+    <string name="from_layout25">Show tasks with an empty date (works only with the Date condition)</string>
+    <string name="from_layout26">Save and Apply</string>
+    <string name="from_layout27">Resp.</string>
+    <string name="from_layout28">Exec.</string>
+    <string name="from_layout29">Executor</string>
+    <string name="from_layout30">% compl.</string>
+    <string name="from_layout31">% of completion</string>
+    <string name="from_layout32">Proc.time</string>
+    <string name="from_layout33">Processing time</string>
+    <string name="from_layout34">Fact</string>
+    <string name="from_layout35">Processing time (fact)</string>
+    <string name="from_layout36">Rel.date</string>
+    <string name="from_layout37">Release date</string>
+    <string name="from_layout38">Due date</string>
+    <string name="from_layout39">default filter</string>
+    <string name="from_layout40">Send message(sms, email) about new status to a responsible automatically</string>
+    <string name="from_layout41">First, try to send new status by email, if there is no email - by sms</string>
+    <string name="from_layout42">Code prefix</string>
+    <string name="from_layout43">Auto code prefix</string>
+    <string name="from_layout44">Color for times|days off in calendar view</string>
+    <string name="from_layout45">Pick a color</string>
+    <string name="from_layout46">IMAP/POP3 SERVER</string>
+    <string name="from_layout47">SMTP SERVER</string>
+    <string name="from_layout48">User</string>
+    <string name="from_layout49">Pass</string>
+    <string name="from_layout50">Password</string>
+    <string name="from_layout51">Frequency</string>
+    <string name="from_layout52">Check new messages every _ minutes</string>
+    <string name="from_layout53">Your addr.</string>
+    <string name="from_layout54">Your email address</string>
+    <string name="from_layout55">Last id</string>
+    <string name="from_layout56">The last email id to check</string>
+    <string name="from_layout57">Check IMAP connection</string>
+    <string name="from_layout58">Task</string>
+    <string name="from_layout59">Name of the task</string>
+    <string name="from_layout60">Responsible</string>
+    <string name="from_layout61">Executor</string>
+    <string name="from_layout62">Description</string>
+    <string name="from_layout63">Parent</string>
+    <string name="from_layout64">Start time</string>
+    <string name="from_layout65">Compl. time</string>
+    <string name="from_layout66">Date from</string>
+    <string name="from_layout67">Date to</string>
+    <string name="from_layout68">Start time (fact)</string>
+    <string name="from_layout69">Compl. time (fact)</string>
+    <string name="from_layout70">Processing time (min.)</string>
+    <string name="from_layout71">Processing time fact (min.)</string>
+    <string name="from_layout72">MON</string>
+    <string name="from_layout73">TUE</string>
+    <string name="from_layout74">WED</string>
+    <string name="from_layout75">THU</string>
+    <string name="from_layout76">FRI</string>
+    <string name="from_layout77">SAT</string>
+    <string name="from_layout78">SUN</string>
+    <string name="from_layout79">all day tasks</string>
+    <string name="from_layout80">Choose any date from a desired week</string>
+    <string name="from_layout81">Choose any date from a desired month</string>
+    <string name="from_layout82">executor:</string>
+    <string name="from_layout83">responsible:</string>
+    <string name="from_layout84">Due date:</string>
+    <string name="from_layout85">tasks</string>
+    <string name="from_layout86">month</string>
+    <string name="from_layout87">week</string>
+    <string name="from_layout88">day</string>
+    <string name="from_layout89">agenda</string>
+    <string name="from_layout90">Tasks</string>
+    <string name="from_layout91">Month</string>
+    <string name="from_layout92">Week</string>
+    <string name="from_layout93">Day</string>
+    <string name="from_layout94">Agenda</string>
+    <string name="from_layout95">Time</string>
+    <string name="from_layout96">Last</string>
+    <string name="from_layout97">Next</string>
+    <string name="from_layout98">Start and finish dates were changed automatically</string>
+    <string name="from_layout99">Completed on</string>
+    <string name="from_layout100">Edit</string>
+    <string name="from_layout101">Cancel</string>
+    <string name="from_layout102">min.</string>
+    <string name="from_layout103">Name of a new item</string>
+    
+        
+    <string name="from_layout104">Email</string>
+    <string name="from_layout105">Pass</string>
+    <string name="from_layout106">Toodledo Sync</string>
+     <string name="from_layout107">Toodledo Synchronize</string>   
+     <string name="from_layout108">Sync every 60 minutes automatically</string> 
+     <string name="from_layout109">Pick a picture</string> 
+     <string name="from_layout110">Font size in the task list</string> 
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <string-array name="date_filters">
+        <item>Chosen Date</item>
+        <item>Current Date</item>
+        <item>Beginning of the week</item>
+        <item>End of the week</item>
+        <item>Beginning of the month</item>
+        <item>End of the month</item>
+        <item>Beginning of the year</item>
+        <item>End of the year</item>
+    </string-array>
+    <string-array name="alarms">
+        <item>No alarm</item>
+        <item>1 min.</item>
+        <item>5 min.</item>
+        <item>10 min.</item>
+        <item>15 min.</item>
+        <item>30 min.</item>
+        <item>1 h</item>
+        <item>2 h</item>
+        <item>12 h</item>
+        <item>24 h</item>
+        <item>2 days</item>
+        <item>1 week</item>
+    </string-array>
+    <string-array name="sort">
+        <item>id</item>
+        <item>id desc</item>
+        <item>code</item>
+        <item>code desc</item>
+        <item>name</item>
+        <item>name desc</item>
+        <item>date</item>
+        <item>date desc</item>
+        <item>release </item>
+        <item>release desc </item>
+        <item>duedate </item>
+        <item>duedate desc </item>
+        <item>status </item>
+        <item>category </item>
+    </string-array>
+
+    <string name="date_condition">Condition</string>
+    <string name="date_condition_from">From</string>
+    <string name="date_condition_to">To</string>
+
+</resources>

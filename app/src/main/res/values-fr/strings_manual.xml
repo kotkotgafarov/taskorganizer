@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titlepage1">Voir \"Liste des tâches\"</string>
+    <string name="page1">&lt;H3>Voir \"Liste des tâches\".&lt;/H3>
+        
+        
+&lt;p>Une nouvelle tâche peut être ajouté dans l\'une des trois façons suivantes:
+&lt;p>	- Appuyez sur \"+\" dans la barre de navigation. Avant d\'enter le nom de la nouvelle tâche (le 	formulaire de la tâche ne sera pas ouvert);
+&lt;p>	- Appuyez sur \"+\" dans le menu principal (le formulaire de la tâche ne sera pas ouvert);
+&lt;p>	- Appelez le menu contextuel d\'une ancienne tâche par un clic long et sélectionnez \"Ajouter 	une tâche enfant\" (le formulaire de la tâche ne sera pas ouvert).
+&lt;p>Dans chaque ligne de la liste les informations suivantes sont affichées: date à laquelle le traitement de la tâche est programmée (ou une inscription \"Non programmé\"), statut, catégorie, cochez la case \"actif / complétés\", le nom et le code du travail, responsable , exécuteur testamentaire, date d\'échéance;
+&lt;p>Pour supprimer la tâche (pour changer son statut sur \"Archive\") accéder au menu contextuel et sélectionnez \"Supprimer la tâche\".
+&lt;p>Pour modifier une hiérarchie, ouvrez forme d\'une tâche enfant et de prendre un nouveau parent (parent ou clair). 
+
+</string>
+    <string name="titlepage2">Voir \"Mois\" et \"Semaine\"</string>
+    <string name="page2">&lt;H3>Voir \"Mois\" et \"Semaine\". &lt;/H3>
+&lt;p>Voir \"Mois\"
+&lt;p>La couleur des jours de congé peuvent être modifiés dans \"Réglages\".
+&lt;p>En cliquant sur la cellule d\'un jour particulier, une vue correspondant \"Jour\" est affiché;
+&lt;p>Voir \"Semaine\"
+&lt;p>\"Toutes les tâches quotidiennes\" sont des tâches qui n\'ont pas de début ou de fin et concernent un jour précis.
+&lt;p>Le nombre de toutes les tâches quotidiennes apparaît sous le jour correspondant de la semaine.
+&lt;p>En cliquant sur une cellule \"Jour-Heure\" un formulaire pour une nouvelle tâche va s\'ouvrir avec des valeurs prédéfinies \"date\", \"date de début\", \"date de fin\".
+&lt;p>La couleur d\'heures d\'arrêt peut être défini dans \"Réglages\". 
+</string>
+    <string name="titlepage3">Filtrage et tri</string>
+    <string name="page3">&lt;H3>Filtrage et tri.&lt;/H3>
+&lt;p>Un filtre est appliqué pour tous les points de vue: \"listes de tâches\", \"Mois\", \"Semaine\", \"jour\", \"Agenda\".Pour personnaliser le clic filtre \"Menu\" - \"Filtre\". Une forme du filtre actuel sera ouvert.
+&lt;p>- Pour définir une condition sur un domaine particulier:
+&lt;p>	- Cochez une case en face du dépôt;
+&lt;p>  	- Sélectionnez une condition dans la liste une des conditions;
+&lt;p>Mettre en place une valeur à comparer;
+&lt;p>Une valeur à comparer aux champs \"responsable\" et \"Exécuteur\" est sélectionné dans la liste des contacts ou entrés manuellement, en choisissant dans le menu contextuel \"Effacer\" et entrez un numéro de téléphone ou l\'adresse e-mail arbitraire 
+&lt;p>Les conditions pour les champs \"Date\", \"Date d\'échéance\", \"Date de sortie\" sont définis dans des formes spéciales, où les valeurs de dates ou intervalles peuvent être ajoutés ou sélectionné.
+&lt;p>Par exemple, le filtre suivant peut être défini: \"Catégorie = Travail\", \"date d\'échéance en début d\'intervalle de la semaine - fin de la semaine\", \"Etat = Active\".
+&lt;p>Ou le filtre à un exécuteur testamentaire particulière: \"Catégorie dans la liste Project1, Project2\", \"Le nom contient\" Rapport \"\", \"Status &lt;/> Terminé\", \"exécuteur = Adam Smith\".
+&lt;p>Pour enregistrer un filtre de remplissage au nom et appuyez sur \"Enregistrer\". Pour appliquer le filtre-presse \"Appliquer\".
+&lt;p>Dans le menu principal, vous pouvez choisir un filtre de pré-enregistrée.
+&lt;p>Pour modifier un pré-filtre sauvegardé choisir \"Menu\" - \"filtres enregistrés\". Via un clic long sur un appel filtre sélectionné un menu contextuel. Sélectionnez \"Modifier\". Dans une forme ouverte filtre apporter des modifications et appuyez sur \"Enregistrer\".
+</string>
+
+    
+    
+    <string name="titlepage4">Interaction avec les responsables et exécuteur.</string>
+    <string name="page4">&lt;H3>Interaction avec les responsables et exécuteur..&lt;/H3>
+&lt;p>Le Responsable est une personne qui vous a nommé cette tâche.
+&lt;p>L\'exécuteur testamentaire est une personne, qui a été nommé par vous pour effectuer cette tâche.
+&lt;p>Vous pouvez définir un exécuteur testamentaire pour une tâche dans sa forme en sélectionnant un contact dans les \"Contacts\" ou par saisie d\'un numéro de téléphone particulier ou un e-mail.
+&lt;p>Si un exécuteur testamentaire est choisi parmi la liste de contacts et vous souhaitez entrer un autre numéro de téléphone ou un e-mail, appuyez sur \"Effacer\" dans le menu contextuel et saisissez les nouvelles données.
+&lt;p>La tâche peut être envoyé à l\'exécuteur testamentaire par sms ou e-mail. L\'exécuteur recevra un message (SMS ou e-mail) dans lequel les données suivantes sont définies: votre code de la tâche, le nom et la date d\'échéance de la tâche. 
+&lt;p>Pour envoyer un message à l\'exécuteur testamentaire sélectionnez \"Menu\" dans la forme de la tâche, puis sélectionnez un type de message (SMS ou e-mail).
+&lt;p>En recevant le message dans l\'application de l\'exécuteur testamentaire d\'une nouvelle tâche est créée, dans laquelle dans le champ \"Responsable\", votre contact sera défini (ou votre numéro de téléphone / e-mail, si vous n\'êtes pas sur sa liste de contacts).
+&lt;p>Un responsable peut être choisie de la même façon.
+&lt;p>Si dans \"Réglages\" une case à cocher \"Envoyer un message sur le nouveau statut à un responsable automatiquement\" est cochée, puis en changeant de l\'état dans la liste de tâches, un message avec le nouveau statut sera automatiquement envoyé au responsable. 
+&lt;p>Si les responsables d\'un e-mail et un numéro de téléphone sont choisies, alors:
+&lt;p>		-Si dans \"Réglages\" une case à cocher \"Essayez d\'abord d\'envoyer l\'état par email. 		Sinon, s\'il n\'y a aucun e-mail, envoyez par sms \", puis l\'envoi sera fait dans cette 			séquence;
+&lt;p>		-Sinon, en cas de changement de statut, il existe la possibilité de choisir la façon d\'envoyer l\'état.
+&lt;p>Pour envoyer des emails, paramètres de courrier électronique peut être défini dans \"Réglages\".
+&lt;p>Un exemple d\'une interaction. \"Maman\" crée une tâche  \"lacheter lait\"  et choisit un exécuteur de sa liste de contacts comme \"Fils\". \"Maman\" envoie la tâche de \"Fils\" depuis \"Menu\". \"Fils\" reçoit cette tâche, sa forme apparaît sur son écran. Après l\'évolution de l\'état de la tâche à \"Terminé\", le statut est modifié et visible dans \"maman\" application automatiquement. 
+</string>
+
+    
+    
+<string name="titlepage5">Edition de groupe de tâches. </string>
+<string name="page5">&lt;H3>Edition de groupe de tâches.&lt;/H3>
+&lt;p>C’est par exemple utilisé pour reporter une tâche à une autre date, ou changer sa catégorie ou son exécuteur. Ne peut être uniquement utilisé dans la liste de tâches vues.  Appelé par \"menu\" \"ajout\" \"groupe d’édition\". Au lieu de boîtes d\'état \"case à cocher d\'orange sera affiché pour sélectionner des tâches à éditer et dans le bas de l\'écran une barre orange avec deux boutons apparaissent. Selection  d\'une taches à éditer et appuyer sur \"éditer la taches sélectionné\"
+&lt;p>Dans une forme ouverte vérifier les dossiers à changer et leur donner de nouvelles valeurs. Puis appuyer sur \" appliquer \" 
+</string>
+
+<string name="titlepage6">Statuts et catégorie.</string>
+<string name="page6">&lt;H3>Ajout, édition et suppression des statuts et catégorie .&lt;/H3>
+&lt;p>Pour éditer les catégories, appuyer sur  \"menu\" \"catalogue\" \"catégorie\".Pour ajouter une nouvelle catégorie, enter son nom dans un dossier \"supérieur et appuyer sur \" + \" 
+&lt;p>Pour éditer ou supprimer une catégorie par un long clic dans le menu des appel et sectionner la fonction correspondante .
+&lt;p>De même pour les statuts
+</string>
+
+<string name="titlepage7">Temps consumé</string>
+<string name="page7">&lt;H3>Temps consumé.&lt;/H3>
+&lt;p>Avec cette application vous pouvez entrer et contrôler le temps consumer \"i.e. combine de temps vous avez passer sur chaque taches de différentes catégories. Pour appeler cette fonction  sélectionner \"  menu \" \" additionnel \" \" temps consumé \". Pour ajouter un nouveau rangement appuyer sur \"+\". Les rangement qui correspondent aux taches complètes apparaissent automatiquement. Dans chaque rangement ; la date de conception, la catégorie, nombre de minute, commentaire et \" source \" . Chaque rangement édité et marqué par un fond gris. Pour le sauvegrader les changements  appuyer sur \"enregistrer \". Pour dessiner un diagramme ou enregistrer un tableau comme un CSV dossier appuyer sur le bouton droit de la barre du haut.</string>
+
+<string name="titlepage8">Toodledo.com Synchronisation</string>
+<string name="page8">&lt;H3>Toodledo.com Synchronisation.&lt;/H3>
+&lt;p>Service en ligne pour organiser les taches à réaliser.  
+&lt;p>Pour synchroniser les taches, dans \" préférence \" vous avez besoin de définir un e mail et un mot de passé utilisé pour vous connecter à toodledo.com. en appuyant sur \" toodledo sync \" une synchronisation vas être faite. Pour les synchronisation automatique chaque 60 minutes, cocher une la correspondante case et appuyer sur \" enregistrer \" dans \" préférence \". les dossiers suivant son synchronisé par : nom, date, statut, processus de temps, date prévu et description. Si entre les synchronisations, une tache à changé dans les deux applications,seules les taches Rabotan de changement seront sauvegarder.
+</string>
+
+</resources>

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sdf1">dd MMM yyyy</string>
+    <string name="sdf2">dd MMM yyyy HH:mm</string>
+    <string name="sdf3">HH:mm</string>
+    <string name="app_name">Rabotan ToDo Kalender</string>
+    <string name="menu_add">Neue Aufgabe</string>
+    <string name="menu_delete">Aufgabe zu entfernen</string>
+    <string name="menu_sms">Durch SMS abzusenden</string>
+    <string name="menu_email">Durch email abzusenden</string>
+    <string name="menu_filter">Filter</string>
+    <string name="menu_filter_saved">Filtern aufzusparen</string>
+    <string name="name_for_a_new_task">Name der neuen Aufgabe</string>
+    <string name="name_for_filter">Name der Aufgabe fur die Suche</string>
+    <string name="menu_edit_catalog">Zu redigieren</string>
+    <string name="menu_delete_catalog">Zu entfernen</string>
+    <string name="menu_return">Zurückführen</string>
+    <string name="menu_save">Aufzusparen</string>
+    <string name="menu_catalogs">Katalogen</string>
+    <string name="menu_preferences">Abstimmungen</string>
+    <string name="menu_from_calendar">Aus dem ANDROID-Kalender auszulasten</string>
+    <string name="menu_to_calendar">Im ANDROID-Kalender auszulasten</string>
+    <string name="menu_more">Ergänzend</string>
+    <string name="menu_export">Export ins xml</string>
+    <string name="menu_import">Import aus xml</string>
+    <string name="menu_group_editing">Gruppenredigierung</string>
+    <string name="menu_receive_emails">Email/die Emails zu bekommen</string>
+    <string name="menu_consumed_time">Aufgewendete Zeit</string>
+    <string name="denied_to_delete_catalog">Entfernung des Elementes ist verbunden</string>
+    <string name="status1">Aktiv</string>
+    <string name="status2">Beendet ist</string>
+    <string name="status3">Weggefallene</string>
+    <string name="status4"> Archiv-</string>
+    <string name="status5">Ausgesetzte</string>
+    <string name="category1">Personal</string>
+    <string name="category2">Arbeits-</string>
+    <string name="menu_categories">Kategorien</string>
+    <string name="menu_statuses">Statusen</string>
+    <string name="menu_filters">Filtern</string>
+    <string name="category">Kategorie</string>
+    <string name="status">Status</string>
+    <string name="editname">Führen Sie den Namen ein:</string>
+    <string name="buttonsave">Aufzusparen</string>
+    <string name="buttoncancel">Abberufung</string>
+    <string name="question_delete_task">Sind Sie überzeugt, dass Sie die Aufgabe zu entfernen/im Archiv hinzustellen möchten?</string>
+    <string name="alarm">Signal</string>
+    <string name="from_code1">Fehler. Die Rufnummer für  … ist nicht bestimmt.</string>
+    <string name="from_code2">Fehler. Das Email für  dem Kontakten ist nicht bestimmt. </string>
+    <string name="from_code3">Email abzusenden.</string>
+    <string name="from_code4">SMS abzusenden.</string>
+    <string name="from_code5">Email für </string>
+    <string name="from_code6">Absendung dem Email ist nicht gelingt.</string>
+    <string name="from_code7">nicht im Plan</string>
+    <string name="from_code8">Hacken “Das Datum” ist im laufenden Filter nicht bezeichnet. </string>
+    <string name="from_code9">Im laufenden Filter die Bedingung auf das Datum nicht \'=\' ist.</string>
+    <string name="from_code10">im Intervall</string>
+    <string name="from_code11">außer dem Intervall</string>
+    <string name="from_code12">Ja</string>
+    <string name="from_code13">Nein</string>
+    <string name="from_code14">Zuerst wählen Sie die Aufgabe aus</string>
+    <string name="from_code15"></string>
+    <string name="from_code16">Neuen Emails sind nachgeprüft.</string>
+    <string name="from_code17">Vereinigung misslang. </string>
+    <string name="from_code18">Farbe als Voreinstellung zu wählen</string>
+    <string name="from_code19">Auswahl zu bestätigen </string>
+    <string name="from_code20">Farbe zu wählen </string>
+    <string name="from_code21">Im System ist der Kalender nicht gewählt. Die Synchronisation ist nicht erfüllt</string>
+    <string name="from_code22">Es ist in den Kalender beladen</string>
+    <string name="from_code23">Export-Datei</string>
+    <string name="from_code24">ist in die Wurzel SD der Karte nicht aufgespart</string>
+    <string name="from_code25">ist nicht aufgespart</string>
+    <string name="from_code26">ist aufgespart</string>
+    <string name="from_code27">im inneren Gedächtnis</string>
+    <string name="from_code28">Datei</string>
+    <string name="from_code29">ist in der Wurzel SD der Karte nicht gefunden </string>
+    <string name="from_code30">ist nicht gefunden</string>
+    <string name="from_code31">Import aus</string>
+    <string name="from_code32">ist beendet</string>
+    <string name="from_code33">Neue Aufgabe ist durch die Mitteilung bekommen:</string>
+    <string name="from_code34">Status der Aufgabe\'</string>
+    <string name="from_code35">\' hat sich geändert</string>
+    <string name="from_code36">In der bekommenen Mitteilung ist der Status der Aufgabe nicht aufgegeben</string>
+    <string name="from_code37">Kontakt ist nicht gefunden</string>
+    <string name="from_code38">Kategorie zu wählen</string>
+    <string name="from_code39">enthält </string>
+    <string name="from_code40">enthält nicht </string>
+    <string name="from_code41">in der Liste</string>
+    <string name="from_code42">nicht in der Liste</string>
+    <string name="from_code43">Geben Sie den Namen des Filters auf</string>
+    <string name="from_code44">Zu redigieren</string>
+    <string name="from_code45">Zu entfernen</string>
+    <string name="from_code46">Die untergeordnete Aufgabe zu ergänzen</string>
+    <string name="from_code47">Den Elternteil zu wählen</string>
+    <string name="from_code48">Zu reinigen</string>
+    <string name="from_code49">Kontakt zu wählen</string>
+    <string name="from_code50">Der standardmäßige Filter =</string>
+    <string name="from_code51">Vereinigung gelang</string>
+    <string name="from_code52">Vereinigung misslang</string>
+    <string name="from_code53">Telefon für den Kontakt</string>
+    <string name="from_code54">ist nicht aufgegeben</string>
+    <string name="from_code55">SMS zu</string>
+    <string name="from_code56">Die neue Aufgabe ist durch SMS bekommen:</string>
+    <string name="from_code57">In bekommen SMS ist der Status nicht aufgegeben</string>
+    <string name="from_code58">Kode zu redigieren</string>
+    <string name="from_code59">Füllen Sie den Namen der Aufgabe vor der Erhaltung aus</string>
+    <string name="from_code60">Datum der Aufgabe ist auf … geändert</string>
+    <string name="from_code61"> automatisch</string>
+    <string name="from_code62">Die gewählte Aufgabe ist der laufenden Aufgabe gleich</string>
+    <string name="from_code63">Auffüllung des Verantwortlichen oder des Vollziehers</string>
+    <string name="from_code64">Email-Adresse ist nicht aufgegeben</string>
+    <string name="from_code65">In neu CSV die Datei auf SD der Karte auszuladen</string>
+    <string name="from_code66">Den Bericht \"die Kategorien-die Stunden \” zu bilden</string>
+    <string name="from_code67">das Datum; die Kategorie; der Minuten; der Kommentar; die Aufgabe</string>
+    <string name="from_code68">Haupt </string>
+    <string name="from_code69">Zusätzlich</string>
+    <string name="from_code70">Geschichte</string>
+    <string name="from_code71">Woche:</string>
+    <string name="from_code72">Aufgaben nicht im Plan </string>
+    <string name="from_code73">Führen Sie den Verantwortlichen ein</string>
+    <string name="from_code74">Führen Sie den Vollzieher ein</string>
+    <string name="from_code75">In den Abstimmungen ist Ihr Email-Adresse nicht aufgegeben. Email ist nicht abgesandt.</string>
+    <string name="from_code76">Zu bewerten</string>
+    <string name="from_code77">Wenn es Ihnen gefallen hat</string>
+    <string name="from_code78">,bitte, bewerten Sie es. Danke für Ihre Unterstützung!</string>
+    <string name="from_code79">Später zu erinnern</string>
+    <string name="from_code80">Nein, Danke</string>
+    <string name="from_code81">Fehler Android ist bei der Abfahrt des SMS entstanden. Probieren Sie noch einmal.</string>
+    <string name="from_code82">Fehler der Prüfung Toodledo des Benutzers.</string>
+    <string name="from_code83">Fehler des Erhaltens des Schlüssels Toodledo.</string>
+    <string name="from_code84">Fehler beim Export in Toodledo </string>
+    <string name="from_code85">Netz ist unzugänglich</string>
+    <string name="from_code86">Fehler beim Import aus Toodledo</string>
+    <string name="from_code87"> Synchronisation von Toodledo. Die Zahl der Veränderungen:</string>
+    <string name="from_code88">In Ihrer Einrichtung ist die standardmäßige Tabelle \"die Ereignisse \" nicht aufgedeckt</string>
+    <string name="from_code89">Fehler der Eröffnung der Datenbank.</string>
+    <string name="from_layout1">die Farbe des Hintergrunds</string>
+    <string name="from_layout2">die Farbe des Textes</string>
+    <string name="from_layout3">Datum</string>
+    <string name="from_layout4">Kategorie</string>
+    <string name="from_layout5">Minuten </string>
+    <string name="from_layout6">Kommentar</string>
+    <string name="from_layout7">OK</string>
+    <string name="from_layout8">Aufhebung</string>
+    <string name="from_layout9">Zu verwenden</string>
+    <string name="from_layout10">Name des Filters</string>
+    <string name="from_layout11">Nach … zu sortieren</string>
+    <string name="from_layout12">Kode</string>
+    <string name="from_layout13">Kode für die Suche</string>
+    <string name="from_layout14">Benennung</string>
+    <string name="from_layout15">Benennung für die Suche</string>
+    <string name="from_layout16">Status</string>
+    <string name="from_layout17">Kategorie</string>
+    <string name="from_layout18">Beschreibung</string>
+    <string name="from_layout19">Beschreibung für die Suche</string>
+    <string name="from_layout20">Verantwortliche</string>
+    <string name="from_layout21">Vollzieher</string>
+    <string name="from_layout22">Datum</string>
+    <string name="from_layout23">Direktive Frist</string>
+    <string name="from_layout24">Datum des Eingangs</string>
+    <string name="from_layout25">Aufgaben nicht geliefert in den Plan vorzuführen (arbeitet nur mit der Bedingung auf das Datum)</string>
+    <string name="from_layout26">aufzusparen und zu verwenden</string>
+    <string name="from_layout27">Verantwortliche</string>
+    <string name="from_layout28">Vollzieher</string>
+    <string name="from_layout29">Vollzieher </string>
+    <string name="from_layout30">% dem Abschluß</string>
+    <string name="from_layout31">% dem Abschluß</string>
+    <string name="from_layout32">Zeit auf die Erfüllung (die Minuten)</string>
+    <string name="from_layout33">Zeit auf die Erfüllung</string>
+    <string name="from_layout34">Es ist der Zeit (der Minuten) aufgewendet</string>
+    <string name="from_layout35">Es ist der Zeit tatsächlich aufgewendet</string>
+    <string name="from_layout36">Datum des Eingangs</string>
+    <string name="from_layout37">Datum des Eingangs</string>
+    <string name="from_layout38">direktive Frist</string>
+    <string name="from_layout39">standardmäßiger Filter</string>
+    <string name="from_layout40">Mitteilung (SMS, email) über den neuen Status dem Verantwortlichen automatisch zu schicken</string>
+    <string name="from_layout41">Zuerst zu versuchen braucht, den Status nach email zu schicken, wenn gibt es kein email - SMS zu schicken</string>
+    <string name="from_layout42">Präfix des Kodes</string>
+    <string name="from_layout43">automatisches Präfix des Kodes</string>
+    <string name="from_layout44">Farbe für die arbeitsfreie Zeit/Tage</string>
+    <string name="from_layout45">Farbe zu wählen</string>
+    <string name="from_layout46">IMAP/POP3 Server</string>
+    <string name="from_layout47">SMTP</string>
+    <string name="from_layout48">User</string>
+  <string name="from_layout49">Pass</string>
+  <string name="from_layout50">Password</string>
+   <string name="from_layout51">Frequenz</string>
+    <string name="from_layout52">Die neuen Mitteilungen jede … Minuten zu prüfen</string>
+    <string name="from_layout53">Ihr Email</string>
+    <string name="from_layout54">Ihr Email</string>
+    <string name="from_layout55">letzter Id</string>
+    <string name="from_layout56">Der Id des letzten geprüften Briefes</string>
+    <string name="from_layout57"> Die IMAP-Vereinigung zu prüfen</string>
+    <string name="from_layout58">Aufgabe</string>
+    <string name="from_layout59">Benennung der Aufgabe</string>
+    <string name="from_layout60">Verantwortliche</string>
+    <string name="from_layout61">Vollzieher</string>
+    <string name="from_layout62">Beschreibung</string>
+    <string name="from_layout63">Elternteil</string>
+    <string name="from_layout64">Anfangsdatum</string>
+    <string name="from_layout65">Vollendungsfrist</string>
+    <string name="from_layout66">Datum mit</string>
+    <string name="from_layout67">Datum nach</string>
+    <string name="from_layout68">tatsächliches Anfangsdatum </string>
+    <string name="from_layout69">tatsächliche Vollendungsfrist</string>
+    <string name="from_layout70">Zeit auf die Ausführung</string>
+    <string name="from_layout71">Tatsache</string>
+    <string name="from_layout72">MO</string>
+    <string name="from_layout73">DI</string>
+    <string name="from_layout74">MI</string>
+    <string name="from_layout75">DO</string>
+    <string name="from_layout76">FR</string>
+    <string name="from_layout77">SA</string>
+    <string name="from_layout78">SO</string>
+    <string name="from_layout79">Aufgaben auf den ganzen Tag</string>
+    <string name="from_layout80">Wählen Sie ein beliebiges Datum aus der erwünschten Woche</string>
+    <string name="from_layout81">Wählen Sie ein beliebiges Datum aus dem erwünschten Monat</string>
+    <string name="from_layout82">Vollzieher:</string>
+    <string name="from_layout83">Verantwortliche:</string>
+    <string name="from_layout84">äußerste Frist:</string>
+    <string name="from_layout85">Liste</string>
+    <string name="from_layout86">Monat</string>
+    <string name="from_layout87">Woche</string>
+    <string name="from_layout88">Tag</string>
+    <string name="from_layout89">Agenda</string>
+    <string name="from_layout90">Aufgaben</string>
+    <string name="from_layout91">Monat</string>
+    <string name="from_layout92">Woche</string>
+    <string name="from_layout93">Tag</string>
+    <string name="from_layout94">Agenda</string>
+    <string name="from_layout95">Zeit</string>
+    <string name="from_layout96">Vorhergehende</string>
+    <string name="from_layout97">Nächste</string>
+    <string name="from_layout98">Anfangsdaten und die Vollendungsfrist waren automatisch geändert</string>
+    <string name="from_layout99">Ist auf … erfüllt</string>
+    <string name="from_layout100">Zu redigieren</string>
+    <string name="from_layout101">Aufzuheben</string>
+    <string name="from_layout102">der … Minuten</string>
+    <string name="from_layout103">Name des neuen Elementes</string>
+    <string name="from_layout104">Email</string>
+    <string name="from_layout105">Parole</string>
+    <string name="from_layout106">Toodledo Sync</string>
+    <string name="from_layout107">Toodledo Synchronisation</string>
+    <string name="from_layout108">Jede Stunde automatisch zu synchronisieren</string>
+     <string name="from_layout109">Auswahl vom Bilder</string> 
+     <string name="from_layout110">Schriftgröße</string> 
+
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <string-array name="date_filters">
+        <item>konkretes Datum</item>
+        <item>laufendes Datum</item>
+        <item>Anfang der Woche</item>
+        <item>Wochenende</item>
+        <item>Anfang des Monats</item>
+        <item>Monatsende</item>
+        <item>Anfang des Jahres</item>
+        <item>Ende des Jahres</item>
+    </string-array>
+    <string-array name="alarms">
+        <item>Es gibt kein Signal</item>
+        <item>1 Minute</item>
+        <item>5 Minuten</item>
+        <item>10 Minuten</item>
+        <item>15 Minuten</item>
+        <item>30 Minuten</item>
+        <item>1 Stunde</item>
+        <item>2 Stunden</item>
+        <item>12 Stunden </item>
+        <item>24 Stunden </item>
+        <item>2 Tage</item>
+        <item>1 Woche</item>
+    </string-array>
+    <string-array name="sort">
+        <item>id</item>
+        <item>der sich vermindernde id</item>
+        <item>Kode</item>
+        <item>der sich vermindernde Kode</item>
+        <item>Benennung</item>
+        <item>die sich vermindernde Benennung</item>
+        <item>Datum</item>
+        <item>das sich vermindernde Datum</item>
+        <item>Datum des Eingangs</item>
+        <item>das sich vermindernde Datum des Eingangs</item>
+        <item>direktive Frist</item>
+        <item>die sich vermindernde direktive Frist</item>
+        <item>Status</item>
+        <item>Kategorie</item>
+    </string-array>
+
+    <string name="date_condition">Bedingung</string>
+    <string name="date_condition_from">Von</string>
+    <string name="date_condition_to">bis</string>
+
+</resources>

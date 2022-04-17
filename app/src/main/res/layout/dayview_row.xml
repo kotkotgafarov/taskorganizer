@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dayview_row_relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000"
+    android:orientation="vertical"  >
+
+        <TextView
+            android:id="@+id/dayview_row_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hh"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+                <Button
+            android:id="@+id/dayview_row_button_temp1"
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:background="#000000" />
+
+</LinearLayout>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titlepage1">Bildschirm \"Liste der Aufgaben\"</string>
+    <string name="page1">&lt;H3>Bildschirm \"Liste der Aufgaben\".&lt;/H3>
+        
+        
+&lt;p>Die neue Aufgabe kann man von einer drei Weisen einführen: 
+&lt;p>- Vom Druck \"+\" im Panel der Navigation, vorläufig führen Sie den Namen der neuen Aufgabe (ein die Form der Aufgabe öffnet sich nicht);
+&lt;p>- Durch das Menü vom Druck \"die Neue Aufgabe\" (die Form der Aufgabe öffnet sich);
+&lt;p>- Von einem langwierigen Druck auf der gewählten Aufgabe, für den Aufruf des kontextabhängigen Menüs und der Auswahl des Punktes \"den Nachfolgern\" (die Form der Aufgabe öffnet sich).
+&lt;p>In jeder Zeile werden dargestellt: das Datum, auf dem die Aufgabe ernannt ist (oder die Aufschrift "nicht im Plan"), den Status, die Kategorie, das Fähnchen  \"erfüllt ist/ erfüllt nicht ist\", die Benennung der Aufgabe und den Kode, der Verantwortliche, der Vollzieher, die direktive Frist ;
+&lt;p>Für die Entfernung der Aufgabe (die Veränderung des Status auf \"das Archiv\") einem langwierigen Druck auf die Aufgabe rufen Sie das kontextabhängige Menü herbei und drücken Sie \"zu entfernen\".
+&lt;p>Für die Veränderung der Hierarchie muss man \"den Elternteil\" bei der Aufgabe-Nachfolger (in Form von der Aufgabe) ändern.
+</string>
+
+    
+    
+    
+    <string name="titlepage2">Bildschirm \"Monat\" und \"Woche\"</string>
+    <string name="page2">&lt;H3>Bildschirm \"Monat\" und \"Woche\". &lt;/H3>
+&lt;p>Die Farbe der freien Tage kann man in \"den Abstimmungen\" bezeichnen. 
+&lt;p>Beim Click auf die Zelle des konkreten Tages öffnet sich der Bildschirm \"Tag\". 
+&lt;p>Der Bildschirm \"Woche\".	
+&lt;p>\"Die Aufgaben auf den ganzen Tag\" sind Aufgaben, für die \"das Datum\" bestimmt ist, aber es wird diese Bedingung nicht  eingehalten  - \"das Anfangsdatum\" und \"die Vollendungsfrist\" einem Tag gehören;
+&lt;p>Die Zahl der Aufgaben \"auf den ganzen Tag\" wird unter dem entsprechenden Tag der Woche dargestellt. 
+&lt;p>Beim Click auf die Zelle \"der Tag-Stunde\" öffnet sich die Form der neuen Aufgabe mit den gefüllten Feldern \"Datum\", \"das Anfangsdatum\", \"die Vollendungsfrist\".
+&lt;p>Die Farbe der Ruhestunden kann man in \"den Abstimmungen\" aufgeben.</string>
+
+    
+    
+    
+    <string name="titlepage3">Filter und Sortierung</string>
+    <string name="page3">&lt;H3>Filter und Sortierung.&lt;/H3>
+&lt;p>Der Filter wird für alle Bildschirme verwendet: \"die Liste der Aufgaben\", \"den Monat\", \"die Woche\", \"den Tag\", \"die Agenda\".
+&lt;p>Für die Abstimmung des Filters drücken Sie \"das Menü\" - \"der Filter\". Es wird sich die Form des laufenden Filters öffnen.
+&lt;p>Um die Bedingung auf das konkrete Feld aufzugeben:
+&lt;p>- Haken Sie gegenüber dem entsprechenden Feld ab;
+&lt;p>- Wählen Sie die Bedingung aus der Liste;
+&lt;p>- Einführen Sie oder wählen Sie die verglichene Bedeutung; 
+&lt;p>Die verglichene Bedeutung für \"der Verantwortliche\" und \"der Vollzieher\" kommt aus der Liste der Kontakte heraus oder wird manuell, der Auswahl im kontextabhängigen Menü des Punktes \"Zu reinigen\" und der Einführung der Rufnummer oder der Email-Adresse eingeführt. 
+&lt;p>Die Bedingung für die Felder \"Datum\", \"die Direktive Frist\" und \"das Datum des Eingangs\" protzt in der speziellen Form, in der sich die konkrete Bedeutung des Datums oder das Intervall klärt. 
+&lt;p>Zum Beispiel, man kann den folgenden Filter aufgeben: \"die Kategorie = die Arbeit\",\"die direktive Frist im Intervall \"der Anfang der Woche - das Wochenende\", \"den Status = Aktiv\".
+&lt;p>Oder den Filter nach dem konkreten Vollzieher: \"die Kategorie in der Liste Projekt1, Projekt2 \", \"die Benennung enthält \"den Bericht\", \"der Status nicht  beendet ist\", \"der Vollzieher = Smith A.\"
+&lt;p>Für die Erhaltung des Filters in der Liste der Filter, führen Sie den Namen des Filters ein und drücken Sie \"Aufzusparen\". Für die Anwendung des Filters drücken Sie \"Zu verwenden\".
+&lt;p>Aus dem Hauptmenü kann man den früher-aufgesparten Filter wählen und verwenden. 
+&lt;p>Für die Redigierung der früher-aufgesparte Filter drücken Sie das \"Menü\" – \"die aufgesparten Filter\". Vom langen Druck auf redigierten Filter rufen Sie das kontextabhängige Menü herbei, in dem wählen Sie \"Zu redigieren\". In der sich öffnenden Form des aufgesparten Filters nehmen die Änderungen vor und drücken Sie \"Aufzusparen\".
+
+
+
+</string>
+
+    
+    
+    
+    <string name="titlepage4"> Wechselwirkung mit dem Vollzieher und dem Verantwortlichen</string>
+    <string name="page4">&lt;H3> Wechselwirkung mit dem Vollzieher und dem Verantwortlichen.&lt;/H3>
+&lt;p>Sie können die Aufgabe anderem \"Vollzieher\" ernennen. Dazu wählen Sie in Form von der Aufgabe den Vollzieher oder führen Sie seine Email/Rufnummer mit Hilfe der Tastatur ein. 
+&lt;p>Wenn der Vollzieher aus der Liste der Kontakte gewählt ist und muss man es manuell bezeichnen, drücken Sie \"Zu reinigen\" und führen Sie die Email/Rufnummer mit Hilfe der Tastatur ein.
+&lt;p>Der Vollzieher kann man die Aufgabe nach SMS oder email übersenden. Dabei wird der Vollzieher die Mitteilung (SMS bekommen oder email) in den Ihr Kode der Aufgabe, die Benennung und die direktive Frist angegeben sind. 
+&lt;p>Für die Abfahrt der Mitteilung dem Vollzieher rufen Sie das Menü in Form von der Aufgabe herbei und wählen Sie die Weise der Abfahrt (SMS oder email).
+&lt;p>Beim Erhalten SMS oder email im Programm des Vollziehers wird die neue Aufgabe geschaffen sein, in der im Feld "der Verantwortliche" Sie oder Ihre Nummer des Telefons/Email -Adresse angegeben sein werden.
+&lt;p>\"Der Verantwortliche\" kommt auf die gleiche Weise heraus. \"Der Verantwortliche\" ist man, wer über die Ausführung der Aufgabe mitteilen müssen. Zum Beispiel, es ist, wer Ihnen die Aufgabe gesendet hat.
+&lt;p>Wenn in den Abstimmungen der Haken bestimmt ist \"die Mitteilung vom neuen Status verantwortlich automatisch zu schicken\", so wird bei der Veränderung des Status in der Liste der Aufgaben, die Mitteilung von neuen Status automatisch dem Verantwortlichen geschickt sein.
+&lt;p>Wenn im Katalog der Kontakte beim Verantwortlichen auch die Rufnummer und email aufgegeben sind:
+&lt;p>- Wenn man in den Abstimmungen der Haken \"Zuerst zu versuchen braucht, den Status nach email zu schicken, wenn gibt es kein email - SMS zu schicken\", so wird die Abfahrt in dieser Reihenfolge erfüllt;
+&lt;p>- Wenn der Haken nicht kostet, so kann man bei der Veränderung des Status die Weise der Übersendung des Status wählen.
+&lt;p>Für die Nutzung der Email-Mitteilungen, muss man die Parameter des Email-Box in den Abstimmungen bezeichnen.
+&lt;p>Das Beispiel der Wechselwirkung. \"Die Mutter\" schafft die Aufgabe \"Kaufe die Milch\" und bezeichnet \"den Vollzieher\" aus der Liste der Kontakte - \"Sohn\". "Sohn" bekommt die Mitteilung, die ins Programm wie die Aufgabe beladen wird, und die Form der Aufgabe wird automatisch auf den Bildschirm herausgeführt. Nachdem \"Sohn\" in der Liste der Aufgaben \"Erfüllt\" abgehakt hat, bekommt \"Mutter\" die Mitteilung vom neuen Status und in ihrer Liste der Aufgaben gegenüber der Aufgabe \"Kaufe die Milch\" wird der Haken \"Erfüllt\" festgestellt.
+</string>
+ 
+    
+    
+    
+    <string name="titlepage5">Gruppenredigierung der Aufgaben</string>
+    <string name="page5">&lt;H3>Gruppenredigierung der Aufgaben.&lt;/H3>
+&lt;p>Zum Beispiel, um verwendet etwas Aufgaben auf anderes Datum zu verlegen, bei ihnen den Vollzieher oder die Kategorie zu ersetzen kann man das einzusetzen.
+&lt;p>Arbeitet nur in der Liste der Aufgaben. Es meldet sich das \"Menü\" - \"Zusätzlich\" – “Die Gruppenredigierung”. Anstelle \"der Haken\"  \"erfüllt\" erscheinen es die orangen Haken und die Menüs unten mit zwei Knöpfen. Bemerken Sie die edigierten Aufgaben und drücken Sie \"die Aufgaben zu edigieren\".
+&lt;p>In der sich öffnenden Form bemerken Sie von den Haken die geänderten Felder, bezeichnen Sie die neuen Bedeutungen und drücken Sie \"zu verwenden\".
+</string>
+
+
+  <string name="titlepage6">Kategorien und Status</string>
+  <string name="page6">&lt;H3>Die Einführung, die Redigierung und die Entfernung der Kategorien und der Status.&lt;/H3>
+&lt;p>Für die Redigierung der Kategorien drücken Sie das \"Menü\" - \"die Kataloge\" - \"die Kategorie\". Für die Einführung der neuen Kategorie führen Sie ihren Namen im oberen Feld der Einführung ein und drücken Sie «+». Für die Redigierung oder die Entfernung vom langen Druck rufen Sie das kontextabhängige Menü herbei und wählen Sie den entsprechenden Punkt des kontextabhängigen Menüs.
+&lt;p>Es ist für die Status ähnlich.
+</string>
+
+    <string name="titlepage7">Aufgewendete Zeit</string>
+<string name="page7">&lt;H3>Aufgewendete Zeit.&lt;/H3>
+&lt;p>Mit Hilfe des vorliegenden Programms kann man auch die aufgewendete Zeit im Schnitt der Daten/der Kategorien oder der Aufgaben einführen und prüfen. Die Einführung verwirklicht sich zeilenweise durch die Form \"Menü\" - \"Zusätzlich\" – \"die aufgewendete Zeit\".
+&lt;p>Für die Ergänzung der neuen Zeile drücken Sie «+». Die Zeilen für die erfüllten Aufgaben erscheinen in der Liste automatisch. Bezeichnen Sie das Datum, die Kategorie, die Zahl der ausgegebenen Minuten, den Kommentar.
+&lt;p>Bei der Veränderung, die Zeile wird von der grauen Farbe eingeblendet. Um die Veränderungen aufzusparen drücken Sie den Knopf \"Aufzusparen\". 
+&lt;p>Die Zeilen kann man nach dem Datum und\oder der Kategorie filtrieren. Dazu drücken Sie den Knopf \"Filter\". 
+&lt;p>Für die Schlussfolgerung des Berichtes oder der Erhaltung in CSV drücken Sie den rechten Knopf im unteren Panel.
+</string>
+
+<string name="titlepage8">Synchronisation Toodledo.com</string>
+<string name="page8">&lt;H3>Synchronisation Toodledo.com.&lt;/H3>
+&lt;p>Toodledo.com – der Online-Service für die Verwaltung der Liste der Aufgaben.
+&lt;p>Für die Synchronisation in \"den Abstimmungen\" muss man die elektronische Adresse und die Parolen, die beim Eingang in toodledo.com verwendet werden bezeichnen. Nach dem Druck \"Toodledo Sync» wird die Synchronisation geschehen. Für die automatische Synchronisation jeder 60 Minuten muss man den entsprechenden Haken stellen und in den Abstimmungen \"Aufzusparen\" zu drücken.
+&lt;p>Es werden die folgenden Felder synchronisiert: der Titel, das Datum, den Status der Aufgabe, die Dauer (in den Minuten), die direktive Frist, die Beschreibung.
+&lt;p>Wenn zwischen den Sitzungen der Synchronisation eine und derselbe Aufgabe sowohl in Rabotan als auch in Toodledo geändert ist, so wird in beiden Anlagen nur die Kopie aus Rabotan aufgespart sein.
+</string>
+
+</resources>

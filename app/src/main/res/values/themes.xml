@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Widget.Spinner" parent="android:Widget">
+        <item name="android:background">@drawable/btn_dropdown</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="ThemeDialogNoFrame">
+         <item name="android:windowBackground">@android:color/transparent </item>
+        <item name="android:windowFrame">@null</item>
+         <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.6</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+<!-- parent="@android:style/Theme.Dialog" -->   
+
+</resources>

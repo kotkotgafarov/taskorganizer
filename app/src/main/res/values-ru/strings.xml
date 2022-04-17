@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="sdf1">dd MMM yyyy</string>
+    <string name="sdf2">dd MMM yyyy HH:mm</string>
+        <string name="sdf3">HH:mm</string>
+    
+    
+    <string name="app_name">Rabotan ToDo Calendar</string>
+    <string name="menu_add">Новая задача</string>
+    <string name="menu_delete">Удалить задачу</string>
+    <string name="menu_sms">Отправить через sms</string>
+    <string name="menu_email">Отправить через email</string>
+    <string name="menu_filter">Фильтр</string>
+    <string name="menu_filter_saved">Сохран.фильтры</string>
+    <string name="name_for_a_new_task">Имя новой задачи </string>
+    <string name="name_for_filter">Имя задачи для поиска</string>
+    <string name="menu_edit_catalog">Редактировать</string>
+    <string name="menu_delete_catalog">Удалить</string>
+    <string name="menu_return">Возврат</string>
+    <string name="menu_save">Сохранить</string>
+    <string name="menu_catalogs">Каталоги</string>
+    <string name="menu_preferences">Настройки</string>
+    <string name="menu_from_calendar">Загрузить из ANDROID календаря</string>
+    <string name="menu_to_calendar">Загрузить в ANDROID календарь</string>
+    <string name="menu_more">Дополнительно</string>
+    <string name="menu_export">Экспорт в xml</string>
+    <string name="menu_import">Импорт из xml</string>
+    <string name="menu_group_editing">Групповое редактирование</string>
+    <string name="menu_receive_emails">Получить email\'ы</string>
+    <string name="menu_consumed_time">Затраченное время</string>
+    <string name="denied_to_delete_catalog">Удаление этого элемента запрещено</string>
+    <string name="status1">Активная</string>
+    <string name="status2">Завершенная</string>
+    <string name="status3">Отмененная</string>
+    <string name="status4">Архивная</string>
+    <string name="status5">Отложенная</string>
+    <string name="category1">Личные</string>
+    <string name="category2">Рабочие</string>
+    <string name="menu_categories">Категории</string>
+    <string name="menu_statuses">Статусы</string>
+        <string name="menu_filters">Фильтры</string>
+    <string name="category">Категория</string>
+    <string name="status">Статус</string>
+    <string name="editname">Введите наименование:</string>
+    <string name="buttonsave">Сохранить</string>
+    <string name="buttoncancel">Отмена</string>
+    <string name="question_delete_task">Вы уверены, что хотите удалить(поместить в архив) задачу?</string>
+    <string name="alarm">Сигнал</string>
+    <string name="from_code1">Ошибка. Не определен номер телефона для </string>
+    <string name="from_code2">Ошибка. Не определен email для контакта </string>
+    <string name="from_code3">Отправить email  </string>
+    <string name="from_code4">Отправить sms </string>
+    <string name="from_code5">Email к </string>
+    <string name="from_code6">Отправка email не удалась </string>
+    <string name="from_code7">не в расписании</string>
+    <string name="from_code8">Галочка \"Дата\" не отмечена в текущем фильтре</string>
+    <string name="from_code9">В текущем фильтре условие на дату не \'=\'</string>
+    <string name="from_code10">в интервале</string>
+    <string name="from_code11">вне интервала</string>
+    <string name="from_code12">Да</string>
+    <string name="from_code13">Нет</string>
+    <string name="from_code14">Сначала выберите задачу</string>
+    <string name="from_code15"></string>
+    <string name="from_code16">Новые email проверены</string>
+    <string name="from_code17">Соединение не удалось</string>
+    <string name="from_code18">Выбрать цвет по умолчанию</string>
+    <string name="from_code19">Подтвердить выбор</string>
+    <string name="from_code20">Выбрать цвет</string>
+    <string name="from_code21">В системе не выбран календарь. Синхронизация не выполнена</string>
+    <string name="from_code22">Загружено в календарь</string>
+    <string name="from_code23">Экспорт файл</string>
+    <string name="from_code24"> не сохранен в корень SD карты</string>
+    <string name="from_code25"> не сохранен</string>
+    <string name="from_code26"> сохранен </string>
+    <string name="from_code27"> во внутренней памяти</string>
+    <string name="from_code28">Файл </string>
+    <string name="from_code29"> не найден в корне SD карты</string>
+    <string name="from_code30"> не найден</string>
+    <string name="from_code31">Импорт из</string>
+    <string name="from_code32"> завершен</string>
+    <string name="from_code33">Новая задача получена через сообщение:</string>
+    <string name="from_code34">Статус задачи \'</string>
+    <string name="from_code35">\' изменился</string>
+    <string name="from_code36">В полученном сообщении статус задачи не задан</string>
+    <string name="from_code37">контакт не найден</string>
+    <string name="from_code38">Выбрать категорию</string>
+    <string name="from_code39">содержит</string>
+    <string name="from_code40">не содержит</string>
+    <string name="from_code41">в списке</string>
+    <string name="from_code42">не в списке</string>
+    <string name="from_code43">Задайте имя фильтра</string>
+    <string name="from_code44">Редактировать</string>
+    <string name="from_code45">Удалить</string>
+    <string name="from_code46">Добавить подчиненную задачу</string>
+    <string name="from_code47">Выбрать родителя</string>
+    <string name="from_code48">Очистить</string>
+    <string name="from_code49">Выбрать контакт</string>
+    <string name="from_code50">Фильтр по-умолчанию = </string>
+    <string name="from_code51">Соединение удалось</string>
+    <string name="from_code52">Соединение НЕ удалось</string>
+    <string name="from_code53">Телефон для контакта</string>
+    <string name="from_code54"> не задан</string>
+    <string name="from_code55">SMS к </string>
+    <string name="from_code56">Новая задача получена через смс: </string>
+    <string name="from_code57">В полученном смс статус не задан</string>
+    <string name="from_code58">Редактировать код</string>
+    <string name="from_code59">Заполните имя задачи перед сохранением</string>
+    <string name="from_code60">Дата задачи изменена на </string>
+    <string name="from_code61"> автоматически</string>
+    <string name="from_code62">Выбранная задача равна текущей задаче</string>
+    <string name="from_code63">Заполнение ответственного или исполнителя</string>
+    <string name="from_code64">Email адрес не задан</string>
+    <string name="from_code65">Выгрузить в новый CSV файл на SD карте</string>
+    <string name="from_code66">Сформировать отчет \"Категории-Часы\"</string>
+    <string name="from_code67">дата;категория;минут;комментарий;задача</string>
+    <string name="from_code68">Основное</string>
+    <string name="from_code69">Дополнительно</string>
+    <string name="from_code70">История</string>
+    <string name="from_code71">Неделя : </string>
+    <string name="from_code72">Задачи не в расписании</string>
+    <string name="from_code73">Введите ответственного</string>
+    <string name="from_code74">Введите исполнителя</string>
+    <string name="from_code75">В настройках не задан Ваш email адрес. Email не отправлен.</string>
+    
+    
+    <string name="from_code76">Оценить </string>
+    <string name="from_code77">Если Вам понравился </string>
+    <string name="from_code78">, пожалуйста, оцените его. Спасибо за Вашу поддержку!</string>  
+    <string name="from_code79">Напомнить позже</string>
+    <string name="from_code80">Нет, спасибо</string>  
+    <string name="from_code81">Ошибка Android возникла при отправке смс. Попробуйте еще раз.</string>  
+    
+        <string name="from_code82">Ошибка проверки Toodledo пользователя. </string>  
+    <string name="from_code83">Ошибка получения ключа Toodledo. </string>  
+    <string name="from_code84">Ошибка при экспорте в Toodledo </string>  
+    <string name="from_code85">Сеть недоступна </string>  
+    <string name="from_code86">Ошибки при импорте из Toodledo </string> 
+    
+       <string name="from_code87">Toodledo синхронизация. Количество изменений: </string> 
+    
+        <string name="from_code88">В вашем устройстве не обнаружена стандартная таблица \"События\" </string> 
+       <string name="from_code89">Ошибка открытия базы данных. </string>    
+        
+    <string name="from_layout1">цвет фона</string>
+    <string name="from_layout2">цвет текста</string>
+    <string name="from_layout3">Дата</string>
+    <string name="from_layout4">Категория</string>
+    <string name="from_layout5">Минуты</string>
+    <string name="from_layout6">Комментарий</string>
+    <string name="from_layout7">OK</string>
+    <string name="from_layout8">Отмена</string>
+    <string name="from_layout9">Применить</string>
+    <string name="from_layout10">Имя фильтра</string>
+    <string name="from_layout11">Сортировать по</string>
+    <string name="from_layout12">Код</string>
+    <string name="from_layout13">Код для поиска</string>
+    <string name="from_layout14">Наим.</string>
+    <string name="from_layout15">Наим. для поиска</string>
+    <string name="from_layout16">Статус</string>
+    <string name="from_layout17">Категория</string>
+    <string name="from_layout18">Опис.</string>
+    <string name="from_layout19">Описание для поиска</string>
+    <string name="from_layout20">Ответст.</string>
+    <string name="from_layout21">Исполнитель</string>
+    <string name="from_layout22">Дата</string>
+    <string name="from_layout23">Дир.срок</string>
+    <string name="from_layout24">Дата поступ.</string>
+    <string name="from_layout25">Показывать задачи не поставленные в расписание (работает только с условием на дату)</string>
+    <string name="from_layout26">Сохр.и прим.</string>
+    <string name="from_layout27">Отв.</string>
+    <string name="from_layout28">Исп.</string>
+    <string name="from_layout29">Исполнитель</string>
+    <string name="from_layout30">% завер.</string>
+    <string name="from_layout31">% завершения</string>
+    <string name="from_layout32">Время на исполнение (мин)</string>
+    <string name="from_layout33">Время на исполнение</string>
+    <string name="from_layout34">Затрачено времени (мин)</string>
+    <string name="from_layout35">Затрачено времени факт</string>
+    <string name="from_layout36">Дата поступ.</string>
+    <string name="from_layout37">Дата поступления</string>
+    <string name="from_layout38">Дир.срок</string>
+    <string name="from_layout39">фильтр по умолчанию</string>
+    <string name="from_layout40">Посылать сообщение(sms, email) о новом статусе ответственному автоматически</string>
+    <string name="from_layout41">Сначала пробовать послать статус email, если нет email по смс</string>
+    <string name="from_layout42">Префикс кода</string>
+    <string name="from_layout43">Автоматич. префикс кода</string>
+    <string name="from_layout44">Цвет для нерабочего времени/дней</string>
+    <string name="from_layout45">Выбрать цвет</string>
+    <string name="from_layout46">IMAP/POP3 сервер</string>
+    <string name="from_layout47">SMTP сервер</string>
+    <string name="from_layout48">User</string>
+    <string name="from_layout49">Pass</string>
+    <string name="from_layout50">Password</string>
+    <string name="from_layout51">Частота</string>
+    <string name="from_layout52">Проверять новые сообщения каждые ... минут</string>
+    <string name="from_layout53">Ваш email</string>
+    <string name="from_layout54">Ваш email</string>
+    <string name="from_layout55">Послед. id</string>
+    <string name="from_layout56">id последнего проверенного письма</string>
+    <string name="from_layout57">Проверить IMAP соединение</string>
+    <string name="from_layout58">Задача</string>
+    <string name="from_layout59">Наименование задачи</string>
+    <string name="from_layout60">Ответственный</string>
+    <string name="from_layout61">Исполнитель</string>
+    <string name="from_layout62">Описание</string>
+    <string name="from_layout63">Родитель</string>
+    <string name="from_layout64">Дата нач.</string>
+    <string name="from_layout65">Дата окон.</string>
+    <string name="from_layout66">Дата с</string>
+    <string name="from_layout67">Дата по</string>
+    <string name="from_layout68">Дата нач.(факт)</string>
+    <string name="from_layout69">Дата кон.(факт)</string>
+    <string name="from_layout70">Время на выполение</string>
+    <string name="from_layout71">Факт</string>
+    <string name="from_layout72">ПН</string>
+    <string name="from_layout73">ВТ</string>
+    <string name="from_layout74">СР</string>
+    <string name="from_layout75">ЧТ</string>
+    <string name="from_layout76">ПТ</string>
+    <string name="from_layout77">СБ</string>
+    <string name="from_layout78">ВС</string>
+    <string name="from_layout79">Задачи на весь день</string>
+    <string name="from_layout80">Выберите любую дату из желаемой недели</string>
+    <string name="from_layout81">Выберите любую дату из желаемого месяца</string>
+    <string name="from_layout82">исполнитель:</string>
+    <string name="from_layout83">ответственный:</string>
+    <string name="from_layout84">Крайний срок:</string>
+    <string name="from_layout85">задачи</string>
+    <string name="from_layout86">месяц</string>
+    <string name="from_layout87">неделя</string>
+    <string name="from_layout88">день</string>
+    <string name="from_layout89">агенда</string>
+    <string name="from_layout90">Задачи</string>
+    <string name="from_layout91">Месяц</string>
+    <string name="from_layout92">Неделя</string>
+    <string name="from_layout93">День</string>
+    <string name="from_layout94">Агенда</string>
+    <string name="from_layout95">Время</string>
+    <string name="from_layout96">Предыдущая</string>
+    <string name="from_layout97">Следующая</string>
+    <string name="from_layout98">Даты начала и окончания были изменены автоматически</string>
+    <string name="from_layout99">Выполнена на </string>
+    
+    
+        
+        <string name="from_layout100">Редактировать</string>
+    <string name="from_layout101">Отменить</string>
+     <string name="from_layout102">минут</string>
+       <string name="from_layout103">Имя нового элемента</string>
+     
+        <string name="from_layout104">Email</string>
+    <string name="from_layout105">Пароль</string>
+    <string name="from_layout106">Toodledo Sync</string>
+     <string name="from_layout107">Toodledo синхронизация</string>   
+     <string name="from_layout108">Синхронизировать каждый час автоматически</string>   
+     
+     <string name="from_layout109">Выбрать изображение</string>
+         <string name="from_layout110">Размер шрифта в списке</string> 
+    <style name="ButtonText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:shadowColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <string-array name="date_filters">
+        <item>Конкретная дата</item>
+        <item>Текущая дата</item>
+        <item>Начало недели</item>
+        <item>Конец недели</item>
+        <item>Начало месяца</item>
+        <item>Конец месяца</item>
+        <item>Начало года</item>
+        <item>Конец года</item>
+    </string-array>
+    <string-array name="alarms">
+        <item>Нет сигнала</item>
+        <item>1 мин.</item>
+        <item>5 мин.</item>
+        <item>10 мин.</item>
+        <item>15 мин.</item>
+        <item>30 мин.</item>
+        <item>1 ч</item>
+        <item>2 ч</item>
+        <item>12 ч</item>
+        <item>24 ч</item>
+        <item>2 дня</item>
+        <item>1 неделя</item>
+    </string-array>
+    <string-array name="sort">
+        <item>id</item>
+        <item>id убыв</item>
+        <item>код</item>
+        <item>код убыв</item>
+        <item>наименование</item>
+        <item>наименование убыв</item>
+        <item>дата</item>
+        <item>дата убыв</item>
+        <item>дата поступления </item>
+        <item>дата поступления убыв </item>
+        <item>директивный срок</item>
+        <item>директивный срок убыв </item>
+        <item>статус</item>
+        <item>категория </item>
+    </string-array>
+
+    <string name="date_condition">Условие</string>
+    <string name="date_condition_from">С</string>
+    <string name="date_condition_to">по</string>
+
+</resources>

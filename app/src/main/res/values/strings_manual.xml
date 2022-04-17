@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="titlepage1">View \"Tasks list\"</string>
+    <string name="page1">&lt;H3>View \"Tasks list\".&lt;/H3>
+        
+        
+&lt;p>    A new task can be added in one of the following three ways:
+&lt;p>-	Press \"+\" in navigation bar. Before inputing a name of the new task (The task’s form will not open);
+&lt;p>-	Press \"+\" in main menu (The task’s form will not open);
+&lt;p>-	Call context menu of an old task by long click and select \"Add child task\" (The task’s form will not open).
+&lt;p>In each row of the list the following information is displayed: date on which the processing of task is scheduled (or an inscription \"unscheduled\"), status, category, check box \"active/completed\", name and code of the task, responsible, executor, due date; 
+&lt;p>To delete task (to change its status to \"Archive\") access the context menu and select \"Delete task\".
+&lt;p>To change a hierarchy, open a child task’s form and pick up a new parent (or clear parent).</string>
+    <string name="titlepage2">Views \"Month\" and \"Week\"</string>
+    <string name="page2">&lt;H3>Views \"Month\" and \"Week\". &lt;/H3>
+&lt;p>Views \"Month\"
+&lt;p>By clicking on cell of a particular day, a corresponding view \"Day\" is shown;
+&lt;p>View \"Week\"
+&lt;p>\"All day tasks\" are tasks which have no start or end time and concern a specific day.
+&lt;p>The number of all day tasks is displayed under the corresponding day of week. 
+&lt;p>By clicking on a cell \"Day-Hour\" a form for a new task will  open with pre-defined values \"date\", \"start date\", \"end date\".
+</string>
+    <string name="titlepage3">Filter and sorting</string>
+    <string name="page3">&lt;H3>Filter and sorting.&lt;/H3>
+&lt;p>A filter is applied for all views: \"Task lists\", \"Month\", \"Week\", \"Day\", \"Agenda\".
+&lt;p>To customize the filter click \"Menu\"-\"Filter\". A form for the current filter will be opened. 
+&lt;p>To set up a condition on a particular field:
+&lt;p>-	Check a checkbox opposite the filed;
+&lt;p>-	Select a condition from a conditions’ list;
+&lt;p>-	Set up a value to compare;  
+&lt;p>A value to compare for fields \"Responsible\" and \"Executor\" is selected from contact list or inputted manually, by choosing in context menu \"Clear\" and input a arbitrary phone number or email address. 
+&lt;p>Condition for fields \"Date\", \"Due date\", \"Release date\" are defined in special forms, where values for dates or interval can be added or selected.  
+&lt;p>For example, the following filter can be defined: \"Category = Work\", \"Due date in interval beginning of the week – end of the week\", \"Status = Active\".
+&lt;p>Or the filter to a particular executor: \"Category in the list Project1, Project2\", \"Name contains \"Report\"\", \"Status &lt;> Completed\", \"Executor = Smith Adam\".
+&lt;p>To save a filter fill in the name and press \"Save\". To apply the filter press \"Apply\". 
+&lt;p>From the main menu you can choose a pre-saved filter. 
+&lt;p>To edit a pre-saved filter choose \"Menu\" – \"Saved filters\". Via a long click on a filter selected call a context menu. Select \"Edit\". In an opened filter’s form make changes and press \"Save\".
+</string>
+    <string name="titlepage4">Interaction with Responsible and Executor</string>
+    <string name="page4">&lt;H3>Interaction with Responsible and Executor.&lt;/H3>
+&lt;p>Responsible is a person, who appointed you this task.
+&lt;p>Executor is a person, who was appointed  by you to perform this task. 
+&lt;p>You can define an executor for a task in its form by selecting  a contact from the \"Contacts\" or by inputting of a particular phone number or an email.
+&lt;p>If an executor is chosen from the contact list and you would like to input another phone number or an email, press \"Clear\" in a context menu and input the new data. 
+&lt;p>The task can be sent  to the executor by sms or email. The executor will receive a message (sms or email) in which the following data is defined: your code of the task, the name and the due date of the task. 
+&lt;p>To send a message to the executor select \"Menu\" in the form of the task and then select a type of the message (either sms or email).
+&lt;p>By receiving of the message in the application of the executor a new task will be created, in which in the field \"Responsible\", your contact will be defined (or your phone number/email, if you are not on his contact list).
+&lt;p>A responsible can be chosen in the same way.
+&lt;p>If in \"Settings\" a check box \"Send a message on new status to a responsible automatically\" is checked, then by changing of the status in the task list, a message with the new status will be sent to the responsible automatically. 
+&lt;p>If for the responsible an email and a phone number are chosen, then:
+&lt;p>-	If in \"Settings\" a check box \"First try to send  status by email. Else, if there is no email, send by sms\", then the sending will be done in this sequence;
+&lt;p>-	Otherwise, when changing of status there exists the possibility to select how to send status.
+&lt;p>To send emails, email settings can be defined in \"Settings\".
+&lt;p>An example of an interaction. \"Mom\" creates a task \"Buy milk\" and chooses an executor from her contact list as \"Son\". \"Mom\" sends the task to \"Son\" from \"Menu\". \"Son\" receives this task, its form appears on his screen. After the changing of the status of the task to \"Completed\", the status is changed and visible in \"Mom’s\" application automatically.
+</string>
+    <string name="titlepage5">Task group editing</string>
+    <string name="page5">&lt;H3>Task group editing.&lt;/H3>
+&lt;p>It’s used, for example, to postpone some tasks to another date, or to change their category or executor.
+&lt;p>Can be only used in the view \"Task list\". Called by \"Menu\"-\"Additional\"-\"Group edition\". Instead of status’ checkbox orange check boxes will be shown to select tasks to edit and in the bottom of a screen an orange bar with two buttons will appear. Select tasks to edit and press \"Edit selected tasks\".
+&lt;p>In an opened form check the fields to change and provide their new values. Then press \"Apply\".
+</string>
+    <string name="titlepage6">Statuses and Categories.</string>
+    <string name="page6">&lt;H3>Adding, editing and deleting of Statuses and Categories.&lt;/H3>
+&lt;p>With this application you can input and control your consumed time, i.e. how much time you spent for each task or for different categories.  To call this feature select \"Menu\"-\"Additional\"-\"Consumed time\".
+&lt;p>To add a new row press \"+\". Rows which correspond to completed tasks appear automatically. In each row: a date of time consumption, category, number of minutes, comment are provided.
+&lt;p>Each row edited is marked by gray background. To save changes in the table press \"Save\". Row can be filtered by date and/or category. To do it press \"Filter\". To draw a diagram or to save the table as CSV file press the right button on the bottom bar. 
+</string>
+
+    <string name="titlepage7">Time consumed</string>
+<string name="page7">&lt;H3>Time consumed.&lt;/H3>
+&lt;p>With this application you can input and control your consumed time, i.e. how much time you spent for each task or for different categories.  To call this feature select \"Menu\"-\"Additional\"-\"Consumed time\".
+&lt;p>To add a new row press \"+\". Rows which correspond to completed tasks appear automatically. In each row: a date of time consumption, category, number of minutes, comment are provided.
+&lt;p>Each row edited is marked by gray background. To save changes in the table press \"Save\". Row can be filtered by date and/or category. To do it press \"Filter\". To draw a diagram or to save the table as CSV file press the right button on the bottom bar. 
+</string>
+
+<string name="titlepage8">Toodledo.com Synchronization</string>
+<string name="page8">&lt;H3>Toodledo.com Synchronization.&lt;/H3>
+&lt;p>Toodledo.com – online service to organize ToDo Tasks.
+&lt;p>To synchronize tasks, in \"Preferences\" you need to define email and password used to login Toodledo.com. By pressing \"Toodledo Sync\", a synchronization will be committed. For automatic sync each 60 minutes, check a corresponding checkbox and press \"Save\" in \"Preferences\".
+&lt;p>The following fields are synchronized: name, date, status, processing time, due date and description.
+&lt;p>If between synchronizations, a task was changed in both applications, Rabotan task’s changes will only be saved. 
+</string>
+
+</resources>

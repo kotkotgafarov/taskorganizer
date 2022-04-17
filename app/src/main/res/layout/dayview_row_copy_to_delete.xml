@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dayview_row_relativeLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" >
+
+    <LinearLayout
+        android:id="@+id/linear_layout_dayview_row_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        
+                <Button
+            android:id="@+id/dayview_row_button_temp1"
+            android:layout_width="1dp"
+            android:layout_height="10dp"
+            android:background="#000000" />
+        <TextView
+            android:id="@+id/dayview_row_hour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hh"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/dayview_row_button_temp0"
+            android:layout_width="20dp"
+            android:layout_height="1dp"
+            android:background="#000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dayview_row_button_linearLayout_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/dayview_row_button_textview1"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="#000000"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+        <Button
+            android:id="@+id/dayview_row_button_temp"
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="#6E6E6E" />
+
+        <TextView
+            android:id="@+id/dayview_row_button_textview2"
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            android:layout_alignParentBottom="true"
+            android:background="#000000"
+            android:text=""
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </LinearLayout>
+    
+
+</LinearLayout>
